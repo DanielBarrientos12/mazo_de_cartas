@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login mazo de cartas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body class="background-image h-screen flex items-center justify-center">
+  <main class="w-full max-w-xs m-4">
+    <section class="formularioIngreso efecto-acrilico rounded-lg p-8 shadow-lg">
+      <form id="loginForm" action="" method="post" class="flex flex-col space-y-4">
+        <div class="campoFormulario">
+          <label for="username" class="block text-sm font-bold mb-2">Usuario:</label>
+          <input type="text" id="username" name="username" required class="w-full p-2 rounded border-gray-300"/>
+        </div>
+        <div class="campoFormulario">
+          <label for="password" class="block text-sm font-bold mb-2">Contraseña:</label>
+          <input type="password" id="password" name="password" required class="w-full p-2 rounded border-gray-300"/>
+        </div>
+        <div class="campoFormulario">
+          <button type="submit" class="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Ingresar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+  <script src="src/js/login.js"></script>
+</body>
+</html>

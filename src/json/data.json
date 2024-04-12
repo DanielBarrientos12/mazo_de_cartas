@@ -1,0 +1,8 @@
+{ "data": [
+	{"numero": "1","carta": "As", "valor": "0"},
+	{"numero": "2","carta": "Dos de diamantes", "valor": "0"},
+	{"numero": "3","carta": "Tres de corazones", "valor": "0"},
+	{"numero": "4","carta": "Cuatro de corazones", "valor": "0"},
+	{"numero": "5","carta": "Cinco de corazones", "valor": "0"}
+	]
+}
